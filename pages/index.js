@@ -1,24 +1,16 @@
 const Home = () => {
   return (
     <div className="container">
-      <h1>💖 Eu te amo Mariana 💖</h1>
+      <h1>💖 Eu te amo, Mariana 💖</h1>
       <div className="gif">
         <img
-          src="https://media.giphy.com/media/l0MYB8Ory7Hqefo9a/giphy.gif"
-          alt="Coração brilhando"
-          width="200"
+          src="https://media.giphy.com/media/Q7ozWVYCR0nyW2rvPW/giphy.gif"
+          alt="Totoro Studio Ghibli"
+          width="250"
         />
       </div>
-      <a
-        href="https://pt.clubpenguin.com/"
-        className="button"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        Clique aqui para um segredo ✨
-      </a>
     </div>
   );
 };
 
-export default Home; // Aqui exportamos o componente
+export default Home;
