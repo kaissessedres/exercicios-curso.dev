@@ -1,5 +1,80 @@
 function Home() {
-  return <h1>Eu te amo Mariana</h1>;
+  return `
+    <!DOCTYPE html>
+    <html lang="pt-BR">
+    <head>
+      <meta charset="UTF-8">
+      <title>Eu te amo Mariana 💖</title>
+      <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+      <style>
+        body {
+          background: linear-gradient(135deg, #ffd1ff, #a1c4fd);
+          color: #fff;
+          font-family: 'Press Start 2P', cursive;
+          text-align: center;
+          padding: 50px;
+          background-image: url('https://www.transparenttextures.com/patterns/stardust.png');
+        }
+
+        .container {
+          background-color: rgba(0, 0, 0, 0.7);
+          border: 5px double #ff69b4;
+          border-radius: 40px;
+          padding: 40px;
+          max-width: 800px;
+          margin: 0 auto;
+          box-shadow: 0 0 30px #ffb6c1;
+        }
+
+        h1 {
+          font-size: 24px;
+          color: #ffccff;
+          text-shadow: 2px 2px #ff1493;
+          animation: glow 1.5s infinite alternate;
+        }
+
+        .gif {
+          margin-top: 30px;
+        }
+
+        @keyframes glow {
+          from {
+            text-shadow: 0 0 5px #fff, 0 0 10px #ff69b4, 0 0 20px #ff1493;
+          }
+          to {
+            text-shadow: 0 0 10px #fff, 0 0 20px #ff69b4, 0 0 30px #ff1493;
+          }
+        }
+
+        .button {
+          margin-top: 40px;
+          background-color: #ff69b4;
+          border: 3px solid #fff;
+          padding: 10px 20px;
+          font-size: 14px;
+          color: white;
+          text-decoration: none;
+          border-radius: 20px;
+          box-shadow: 2px 2px #000;
+          display: inline-block;
+        }
+
+        .button:hover {
+          background-color: #ff1493;
+        }
+      </style>
+    </head>
+    <body>
+      <div class="container">
+        <h1>💖 Eu te amo Mariana 💖</h1>
+        <div class="gif">
+          <img src="https://media.giphy.com/media/l0MYB8Ory7Hqefo9a/giphy.gif" alt="Coração brilhando" width="200">
+        </div>
+        <a href="https://pt.clubpenguin.com/" class="button" target="_blank">Clique aqui para um segredo ✨</a>
+      </div>
+    </body>
+    </html>
+  `;
 }
 
 export default Home;
