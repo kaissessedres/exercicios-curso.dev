@@ -4,7 +4,7 @@ const Home = () => {
       <h1>💖 Eu te amo, Mariana 💖</h1>
       <div className="gif">
         <img
-          src="https://media.giphy.com/media/Q7ozWVYCR0nyW2rvPW/https://64.media.tumblr.com/a2bfa8a583f38db3fb6c8d377d74cb3f/tumblr_n9ljxwShPJ1shdhdjo1_500.gif"
+          src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExZnBrZGkzZjE3c3pqeGM5d2R4MTVvMDh0aHh5eHk2NWJkcHpibWp5aCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/wsKqNQmHYZfs4/giphy.gif"
           alt="Studio Ghibli"
           width="250"
         />
